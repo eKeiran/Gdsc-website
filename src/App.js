@@ -14,6 +14,8 @@ function App() {
       <Route path="/team" element={<Team/>}/>
       <Route path="/events" element={<Events/>}/>
       <Route path="/members" element={<Members />} />
+
+      
     </Routes>
    </BrowserRouter> 
   );

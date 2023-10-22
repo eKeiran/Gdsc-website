@@ -68,7 +68,7 @@ const Home = () => {
                     </div>
 
                     <div className='pr-10 '>
-                    <a href='https://team-gdsc.netlify.app/' className="text-blue-600 cursor-pointer ">
+                    <a href='/Members' className="text-blue-600 cursor-pointer ">
                             <button className='rounded-xl border-2 border-blue-600 px-10 py-3 my-2 text-xl hover:bg-blue-600 hover:text-white  mr-20 h-20 w-48'>
                                 The Team
                             </button>

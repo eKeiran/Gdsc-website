@@ -174,16 +174,21 @@
   }
   
   .figcapspecial2 {
-    font-size: 1vw;
+    display: flex;
+    font-size: 0.8vw;
     height: 2rem;
     position: relative;
-    align-items: flex-start;
+    align-items: center;
     color: black;
     justify-content: center;
     text-align: center;
     border-radius: 1.35vw 1.3vw 0% 0%;
     margin-top: -15.9rem;
     text-shadow: 2px 2px #9c9c9c;
+
+    /* Center the element horizontally */
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .vertical-container {
@@ -264,11 +269,11 @@
   
     .no-scroll {
       gap: 2rem;
-      margin-bottom: 7rem;
+      margin-bottom: 8rem;
       margin-left: 0rem;
       text-align: center;
       margin-right: 0rem;
-      width: 20rem;
+      width: 15.5rem;
     }
   
     .no-scrolly {
@@ -291,6 +296,9 @@
       margin-right: -0.5rem;
       box-shadow: 2rem 0rem 2rem rgb(181, 181, 181);
       white-space: wrap;
+      width: 28vw;
+      height: 37vw;
+      
     }
   
     .actualy-glow img {
@@ -313,7 +321,7 @@
   
     .figcapspecial2 {
       font-size: 1.5vw;
-      margin-top: -7rem;
+      margin-top: -8.5rem;
       height: 1rem;
     }
   }
